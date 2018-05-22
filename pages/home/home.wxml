@@ -1,0 +1,34 @@
+<!--pages/home/home.wxml-->
+<view class="page_home">
+	<view class="car_list" wx:for="{{carList}}" bindtap="gotoDetail">
+		<view class="list_top">
+			<view class="top_left">
+				<text class="start_city">{{item.start_city}}</text>
+				<text class="start_province">{{item.start_province}}</text>
+			</view>
+			<view class="top_mid">
+				<image class="car_img" src="/images/car.png"></image>
+				<view class="line"></view>
+				<text class="kilometre_number">大概{{item.kilo}}公里</text>
+			</view>
+			<view class="top_right">
+				<text class="end_city">{{item.end_city}}</text>
+				<text class="end_province">{{item.end_province}}</text>
+			</view>
+		</view>
+
+		<view class="list_line"></view>
+
+		<view class="list_bot">
+			<view class="car_length">
+				<text class="length">{{item.length}}</text>
+			</view>
+			<view class="car_bearing">
+				<text class="bearing">{{item.bearing}}</text>
+			</view>
+			<view class="car_price">
+				<text class="price">{{item.price}}</text>
+			</view>
+		</view>
+	</view>
+</view>

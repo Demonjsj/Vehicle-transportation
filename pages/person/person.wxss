@@ -1,0 +1,81 @@
+page{
+	background: #F5F5F5;
+}
+
+.page_person{
+
+}
+
+.person_info{
+	display: flex;
+	background: #fff;
+	margin-top: 10px;
+	align-items: center;
+	padding: 10px;
+}
+
+.person_img{
+	width: 130rpx;
+	height: 130rpx;
+	border-radius: 100rpx;
+}
+
+.info_right{
+	margin-left: 15px;
+}
+
+.name{
+	font-size: 35rpx;
+
+}
+
+.look_collect{
+	margin-top: 5px;
+	font-size: 30rpx;
+	color: #888888;
+}
+
+.car_source{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	width: 100%;
+	background: #fff;
+	margin-top: 10px;
+}
+
+.post_img{
+	width: 30rpx;
+	height: 34rpx;
+}
+
+.text_source{
+	margin-left: 20px;
+	font-size: 35rpx;
+}
+
+.jiantou{
+	display: flex;
+	justify-content: flex-end;
+	width: 58%;
+}
+
+.my_collect{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	width: 100%;
+	background: #fff;
+	margin-top: 10px;
+}
+
+.collext_img{
+	width: 30rpx;
+	height: 34rpx;
+}
+
+.collect_jiantou{
+	display: flex;
+	justify-content: flex-end;
+	width: 66.5%;
+}

@@ -1,0 +1,48 @@
+/* pages/goods/goods.wxss */
+.start_place{
+	display: flex;
+	align-items: center;
+	background: #fff;
+	width: 100%;
+	padding: 10px;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.hint_class{
+}
+
+.margin_top{
+	margin-top: 10px;
+}
+
+.text_start_place{
+	width: 30%;
+	font-size: 35rpx;
+}
+
+.pick_s_place{
+	width: 50%;
+	margin-left: 20px;
+}
+
+.input_pick{
+	font-size: 35rpx;
+}
+
+.text_explain{
+	padding: 10px;
+	font-size: 29rpx;
+	color: #888888;
+}
+
+.add_info{
+	background: #1AAE18;
+	font-size: 35rpx;
+	color: #fff;
+	margin: 0 10px;
+}
+
+.reset_info{
+	font-size: 35rpx;
+	margin: 10px 10px 0;
+}

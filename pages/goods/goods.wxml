@@ -1,0 +1,63 @@
+<!--pages/goods/goods.wxml-->
+<view class="page_goods">
+	<form bindreset="formReset" bindsubmit="formSubmit">
+		<view class="start_place margin_top">
+			<text class="text_start_place">出发地</text>
+			<picker class="pick_s_place" mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+				<input type="text" placeholder="请选择地点" class="input_pick" 
+				placeholder-style="color: #B2B2B2" placeholder-class="hint_class"
+				value="{{region[0]}}{{region[1]}}{{region[2]}}" disabled="true">
+				</input>
+			</picker>
+		</view>
+
+		<view class="start_place">
+			<text class="text_start_place">目的地</text>
+			<picker class="pick_s_place" mode="region" bindchange="bindPlaceChange" value="{{start_place}}"
+			custom-item="{{customItem}}">
+				<input type="text" placeholder="请选择地点" class="input_pick"
+				placeholder-style="color: #B2B2B2" 
+				value="{{start_place[0]}}{{start_place[1]}}{{start_place[2]}}" disabled="true"></input>
+			</picker>
+		</view>
+
+		<view class="start_place">
+			<text class="text_start_place">车辆登记地点</text>
+			<picker class="pick_s_place" mode="region" bindchange="bindRegisterChange" value="{{registerplace}}"
+			custom-item="{{customItem}}">
+				<input type="text" placeholder="请选择地点" class="input_pick"
+				placeholder-style="color: #B2B2B2" value="{{registerplace[0]}}{{registerplace[1]}}{{registerplace[2]}}" disabled="true"></input>
+			</picker>
+		</view>
+
+		<view class="start_place">
+			<text class="text_start_place">货箱类型</text>
+			<picker class="pick_s_place" value="{{index}}" range="{{arry}}" bindchange="bindTypeChange">
+				<input type="text" placeholder="请选择货箱类型" class="input_pick"
+				placeholder-style="color: #B2B2B2" disabled="true" value="{{arry[carType]}}"></input>
+			</picker>
+		</view>
+		<view class="start_place">
+			<text class="text_start_place">货箱长度</text>
+			<picker class="pick_s_place" value="{{temp}}" range="{{carLength}}" bindchange="bindLengthChange">
+				<input type="text" placeholder="请选择货箱长度" class="input_pick"
+				placeholder-style="color: #B2B2B2" disabled="true" value="{{carLength[carlength]}}"></input>
+			</picker>
+		</view>
+		<view class="start_place">
+			<text class="text_start_place">联系方式</text>
+			<view class="pick_s_place">
+				<input type="text" placeholder="请填写你的手机号码" class="input_pick"
+				placeholder-style="color: #B2B2B2"></input>
+			</view>
+		</view>
+
+		<view class="text_explain">
+			欢迎卡友添加您的车辆相关信息，以便于我们帮您跟精准的配货和让货主更加了解您。
+		</view>
+
+		<button class="add_info" bindtap="bt_add_info">添加车辆信息</button>
+
+		<button class="reset_info" form-type="reset">重新输入</button>
+	</form>
+</view>

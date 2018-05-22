@@ -1,0 +1,69 @@
+<!--pages/detail/detail.wxml-->
+<view class="page_detail">
+	<view class="car_list">
+		<view class="list_top">
+			<view class="top_left">
+				<text class="start_city">天津市</text>
+				<text class="start_province">天津</text>
+			</view>
+			<view class="top_mid">
+				<image class="car_img" src="/images/car.png"></image>
+				<view class="line"></view>
+				<text class="kilometre_number">大概478公里</text>
+			</view>
+			<view class="top_right">
+				<text class="end_city">邯郸市</text>
+				<text class="end_province">河北</text>
+			</view>
+		</view>
+
+		<view class="list_bot">9000元，货到现金结算</view>
+	</view>
+
+	<view class="loading_place">
+		<view class="place_left">
+			<text class="txt_place">装货地址</text>
+			<text class="txt_city">天津天津市</text>
+		</view>
+		<view class="place_right" bindtap="gotoMap">
+			<image class="img_nav" src="/images/locate.png"></image>
+			<text class="txt_locate">定位</text>
+		</view>
+	</view>
+
+	<view class="uploading_place">
+		<view class="place_left">
+			<text class="txt_place">卸货地址</text>
+			<text class="txt_city">河北邯郸市</text>
+		</view>
+		<view class="place_right" bindtap="gotoMap">
+			<image class="img_nav" src="/images/locate.png"></image>
+			<text class="txt_locate">定位</text>
+		</view>
+	</view>
+
+	<view class="load_info">
+		<view class="info_left">
+			<text class="time">装货时间</text>
+			<text class="info">无</text>
+		</view>
+		<view class="line_info"></view>
+		<view class="info_mid">
+			<text class="time">货物情况</text>
+			<text class="info">冻品30吨</text>
+		</view>
+		<view class="line_info"></view>
+		<view class="info_right">
+			<text class="time">车辆需求</text>
+			<text class="info">15米冷藏车</text>
+		</view>
+	</view>
+
+	<view class="another_explain">
+		<text class="txt_another">其他说明</text>
+		<text class="txt_explain">此线路为长期线路，需要两台车长期合作，联系时请说明货源信息来自微信小程序。</text>
+	</view>
+
+	<button class="number" bindtap="callPhone"><image src="/images/phone.png" class="phone_img"/>货源电话：4008003030</button>
+	<button class="collect"><image src="/images/collect.png" class="collect_img"/>收藏这条货源</button>
+</view>

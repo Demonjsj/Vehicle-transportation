@@ -1,0 +1,145 @@
+/* pages/home/home.wxss */
+.page_home{
+
+}
+
+.car_list{
+	background: #fff;
+	width: 90%;
+	height: 250rpx;
+	border: 1rpx solid #E4E4E9;
+	margin: 30rpx auto 0;
+	border-radius: 10rpx;
+}
+
+.list_top{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 60%;
+}
+
+.top_left{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	flex:auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.start_city{
+	font-size: 44rpx;
+}
+
+.start_province{
+	margin-top: 5rpx;
+	font-size: 35rpx;
+}
+
+.top_mid{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	flex:auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.car_img{
+	width: 50rpx;
+	height: 30rpx;
+}
+
+.line{
+	width: 75%;
+	height: 3rpx;
+	background: #F0F5FA;
+}
+
+.kilometre_number{
+	font-size: 30rpx;
+	color: #8FAACC;
+	margin-top: 5rpx;
+}
+
+.top_right{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	flex:auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.end_city{
+	font-size: 44rpx;
+}
+
+.end_province{
+	margin-top: 5rpx;
+	font-size: 35rpx;
+}
+
+.list_line{
+	width: 80%;
+	height: 3rpx;
+	background: #F0F5FA;
+	margin: 0 auto;
+}
+
+.list_bot{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.car_length{
+	display: flex;
+	justify-content: flex-end;
+	flex:auto;
+	align-items: center;
+}
+
+.length{
+	font-size: 30rpx;
+	color: #92C3FF;
+	border: 1rpx solid #92C3FF;
+	border-radius: 30rpx;
+	padding: 5rpx 20rpx;
+	text-align: center;
+}
+
+.car_bearing{
+	display: flex;
+	justify-content: center;
+	flex:auto;
+	align-items: center;
+}
+
+.bearing{
+	font-size: 30rpx;
+	color: #58DF7E;
+	border: 1rpx solid #58DF7E;
+	border-radius: 30rpx;
+	padding: 5rpx 20rpx;
+	text-align: center;
+}
+
+.car_price{
+	display: flex;
+	justify-content: flex-start;
+	flex:auto;
+	align-items: center;
+}
+
+.price{
+	font-size: 30rpx;
+	color: #FFB578;
+	border: 1rpx solid #FFB578;
+	border-radius: 30rpx;
+	padding: 5rpx 20rpx;
+	text-align: center;
+}

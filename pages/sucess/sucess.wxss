@@ -1,0 +1,41 @@
+/* pages/sucess/sucess.wxss */
+
+page{
+	background: #F5F5F5;
+}
+
+.page_success{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.icon_img{
+	margin-top: 50px;
+}
+
+.txt_upload{
+	margin-top: 20px;
+	font-size: 40rpx;
+}
+
+.txt_checked{
+	margin-top: 15px;
+	font-size: 28rpx;
+	color: #888888;
+}
+
+.back_home{
+	margin-top: 25px;
+	width: 85%;
+	background: #1AAD19;
+	color: #fff;
+}
+
+.look_source{
+	margin-top: 10px;
+	width: 85%;
+}

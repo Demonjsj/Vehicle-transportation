@@ -1,0 +1,9 @@
+<!--pages/sucess/sucess.wxml-->
+
+<view class="page_success">
+	<icon type="waiting" size="100" class="icon_img"/>	
+	<text class="txt_upload">上传成功，请等待审核成功</text>
+	<text class="txt_checked">审核通过将会呈现给合适的货主</text>
+	<button class="back_home" bindtap="goBackHome">回主页面</button>
+	<button class="look_source" bindtap="LookCarSource">查看我发布的车源</button>
+</view>
